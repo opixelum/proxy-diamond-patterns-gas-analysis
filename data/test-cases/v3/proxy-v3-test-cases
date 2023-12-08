@@ -1,0 +1,14 @@
+Running 12 tests for test/proxy-pattern/NotarizationProxyV3.t.sol:NotarizationProxyV3Test
+[32m[PASS][0m test01_addFile_variantLengths() (gas: 20866760)
+[32m[PASS][0m test02_addFile_variantLastCharacter() (gas: 17314870)
+[32m[PASS][0m test03_updateFile() (gas: 5971284)
+[32m[PASS][0m test04_expectRevert_fileExists() (gas: 18093)
+[32m[PASS][0m test05_expectRevert_onlyOwner() (gas: 141469)
+[32m[PASS][0m test06_deleteFile() (gas: 16761180)
+[32m[PASS][0m test07_getFileName() (gas: 146056)
+[32m[PASS][0m test08_getFileDetails() (gas: 148030)
+[32m[PASS][0m test09_getFileHash() (gas: 25802104)
+[32m[PASS][0m test10_getFileOwner() (gas: 20008688)
+[32m[PASS][0m test11_getFileCreatedAt() (gas: 20017522)
+[32m[PASS][0m test12_getFileLastModifiedAt() (gas: 20023946)
+Test result: [32mok[0m. [32m12[0m passed; [31m0[0m failed; [33m0[0m skipped; finished in 61.75ms

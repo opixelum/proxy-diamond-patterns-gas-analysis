@@ -1,0 +1,14 @@
+| src/classic-pattern/NotarizationClassicV3.sol:NotarizationClassicV3 contract |                 |        |        |        |         |
+|------------------------------------------------------------------------------|-----------------|--------|--------|--------|---------|
+| Deployment Cost                                                              | Deployment Size |        |        |        |         |
+| 783626                                                                       | 3942            |        |        |        |         |
+| Function Name                                                                | min             | avg    | median | max    | # calls |
+| addFile                                                                      | 114324          | 154332 | 158919 | 203735 | 704     |
+| deleteFile                                                                   | 3677            | 4237   | 4258   | 5076   | 100     |
+| getFileCreatedAt                                                             | 949             | 1035   | 1029   | 1189   | 100     |
+| getFileDetails                                                               | 1722            | 1802   | 1800   | 1954   | 201     |
+| getFileHash                                                                  | 1026            | 1083   | 1026   | 1266   | 300     |
+| getFileLastModifiedAt                                                        | 1015            | 1101   | 1095   | 1255   | 100     |
+| getFileOwner                                                                 | 911             | 997    | 991    | 1151   | 100     |
+| getFilename                                                                  | 1017            | 1472   | 1500   | 2006   | 201     |
+| updateFile                                                                   | 1527            | 21411  | 21793  | 21793  | 102     |

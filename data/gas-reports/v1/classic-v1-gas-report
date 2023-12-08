@@ -1,0 +1,9 @@
+| src/classic-pattern/NotarizationClassicV1.sol:NotarizationClassicV1 contract |                 |       |        |        |         |
+|------------------------------------------------------------------------------|-----------------|-------|--------|--------|---------|
+| Deployment Cost                                                              | Deployment Size |       |        |        |         |
+| 336381                                                                       | 1708            |       |        |        |         |
+| Function Name                                                                | min             | avg   | median | max    | # calls |
+| addFile                                                                      | 3189            | 37933 | 3570   | 136314 | 500     |
+| compareHashes                                                                | 227             | 227   | 227    | 227    | 200     |
+| getFileHash                                                                  | 921             | 962   | 921    | 1161   | 400     |
+| getFileName                                                                  | 942             | 1228  | 1172   | 1931   | 400     |

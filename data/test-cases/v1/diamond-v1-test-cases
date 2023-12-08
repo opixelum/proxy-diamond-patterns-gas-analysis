@@ -1,0 +1,9 @@
+Running 7 tests for test/diamond-pattern/NotarizationDiamondV1.t.sol:NotarizationDiamondV1Test
+[32m[PASS][0m test1_AddFile_variantLengths() (gas: 13893937)
+[32m[PASS][0m test2_AddFile_variantLastCharacter() (gas: 10469141)
+[32m[PASS][0m test3_AddFile_sameFileName() (gas: 3884594)
+[32m[PASS][0m test4_getFileHash() (gas: 2615220)
+[32m[PASS][0m test5_getFileName() (gas: 2602984)
+[32m[PASS][0m test6_compareHashes() (gas: 1950230)
+[32m[PASS][0m test7_upgradeToV2() (gas: 433321)
+Test result: [32mok[0m. [32m7[0m passed; [31m0[0m failed; [33m0[0m skipped; finished in 2.66s

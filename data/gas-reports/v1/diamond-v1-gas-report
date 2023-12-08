@@ -1,0 +1,37 @@
+| src/diamond-pattern/NotarizationDiamond.sol:NotarizationDiamond contract |                 |        |        |        |         |
+|--------------------------------------------------------------------------|-----------------|--------|--------|--------|---------|
+| Deployment Cost                                                          | Deployment Size |        |        |        |         |
+| 2351425                                                                  | 13142           |        |        |        |         |
+| Function Name                                                            | min             | avg    | median | max    | # calls |
+| addFile                                                                  | 3897            | 38693  | 4273   | 137089 | 500     |
+| compareHashes                                                            | 980             | 1002   | 980    | 5480   | 200     |
+| diamondCut                                                               | 59543           | 100591 | 106456 | 106456 | 8       |
+| facetAddress                                                             | 612             | 612    | 612    | 612    | 1       |
+| facetFunctionSelectors                                                   | 47314           | 47314  | 47314  | 47314  | 1       |
+| getFileHash                                                              | 1690            | 1779   | 1690   | 6276   | 400     |
+| getFileName                                                              | 1771            | 2086   | 2001   | 6271   | 400     |
+
+
+| src/diamond-pattern/facets/v1/AddFileFacet.sol:AddFileFacet contract |                 |       |        |        |         |
+|----------------------------------------------------------------------|-----------------|-------|--------|--------|---------|
+| Deployment Cost                                                      | Deployment Size |       |        |        |         |
+| 207657                                                               | 1065            |       |        |        |         |
+| Function Name                                                        | min             | avg   | median | max    | # calls |
+| addFile                                                              | 3061            | 37809 | 3437   | 136235 | 500     |
+
+
+| src/diamond-pattern/facets/v1/CompareHashesFacet.sol:CompareHashesFacet contract |                 |     |        |     |         |
+|----------------------------------------------------------------------------------|-----------------|-----|--------|-----|---------|
+| Deployment Cost                                                                  | Deployment Size |     |        |     |         |
+| 31287                                                                            | 182             |     |        |     |         |
+| Function Name                                                                    | min             | avg | median | max | # calls |
+| compareHashes                                                                    | 153             | 153 | 153    | 153 | 200     |
+
+
+| src/diamond-pattern/facets/v1/GetFileFacet.sol:GetFileFacet contract |                 |      |        |      |         |
+|----------------------------------------------------------------------|-----------------|------|--------|------|---------|
+| Deployment Cost                                                      | Deployment Size |      |        |      |         |
+| 211257                                                               | 1083            |      |        |      |         |
+| Function Name                                                        | min             | avg  | median | max  | # calls |
+| getFileHash                                                          | 857             | 898  | 857    | 1097 | 400     |
+| getFileName                                                          | 941             | 1227 | 1171   | 1930 | 400     |

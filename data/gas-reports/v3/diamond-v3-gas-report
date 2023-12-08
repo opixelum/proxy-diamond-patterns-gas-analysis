@@ -1,0 +1,52 @@
+| src/diamond-pattern/NotarizationDiamond.sol:NotarizationDiamond contract |                 |        |        |        |         |
+|--------------------------------------------------------------------------|-----------------|--------|--------|--------|---------|
+| Deployment Cost                                                          | Deployment Size |        |        |        |         |
+| 2351529                                                                  | 13149           |        |        |        |         |
+| Function Name                                                            | min             | avg    | median | max    | # calls |
+| addFile                                                                  | 115003          | 155132 | 159653 | 204535 | 704     |
+| deleteFile                                                               | 4267            | 4906   | 4884   | 7867   | 100     |
+| diamondCut                                                               | 247548          | 247548 | 247548 | 247548 | 12      |
+| getFileCreatedAt                                                         | 1746            | 1883   | 1832   | 6246   | 100     |
+| getFileDetails                                                           | 2387            | 2515   | 2470   | 6887   | 201     |
+| getFileHash                                                              | 1779            | 1885   | 1779   | 6279   | 300     |
+| getFileLastModifiedAt                                                    | 1768            | 1905   | 1854   | 6268   | 100     |
+| getFileOwner                                                             | 1708            | 1845   | 1794   | 6208   | 100     |
+| getFilename                                                              | 1801            | 2329   | 2290   | 6790   | 201     |
+| updateFile                                                               | 6656            | 22048  | 22304  | 25904  | 102     |
+
+
+| src/diamond-pattern/facets/v3/AddFileFacetV3.sol:AddFileFacetV3 contract |                 |        |        |        |         |
+|--------------------------------------------------------------------------|-----------------|--------|--------|--------|---------|
+| Deployment Cost                                                          | Deployment Size |        |        |        |         |
+| 273719                                                                   | 1395            |        |        |        |         |
+| Function Name                                                            | min             | avg    | median | max    | # calls |
+| addFile                                                                  | 114167          | 154220 | 158811 | 203681 | 704     |
+
+
+| src/diamond-pattern/facets/v3/DeleteFileFacetV3.sol:DeleteFileFacetV3 contract |                 |      |        |      |         |
+|--------------------------------------------------------------------------------|-----------------|------|--------|------|---------|
+| Deployment Cost                                                                | Deployment Size |      |        |      |         |
+| 202451                                                                         | 1039            |      |        |      |         |
+| Function Name                                                                  | min             | avg  | median | max  | # calls |
+| deleteFile                                                                     | 3603            | 4201 | 4216   | 5115 | 100     |
+
+
+| src/diamond-pattern/facets/v3/GettersFacetV3.sol:GettersFacetV3 contract |                 |      |        |      |         |
+|--------------------------------------------------------------------------|-----------------|------|--------|------|---------|
+| Deployment Cost                                                          | Deployment Size |      |        |      |         |
+| 306750                                                                   | 1560            |      |        |      |         |
+| Function Name                                                            | min             | avg  | median | max  | # calls |
+| getFileCreatedAt                                                         | 913             | 999  | 993    | 1153 | 100     |
+| getFileDetails                                                           | 1545            | 1624 | 1622   | 1776 | 201     |
+| getFileHash                                                              | 946             | 1003 | 946    | 1186 | 300     |
+| getFileLastModifiedAt                                                    | 935             | 1021 | 1015   | 1175 | 100     |
+| getFileOwner                                                             | 875             | 961  | 955    | 1115 | 100     |
+| getFilename                                                              | 971             | 1426 | 1454   | 1960 | 201     |
+
+
+| src/diamond-pattern/facets/v3/UpdateFileFacetV3.sol:UpdateFileFacetV3 contract |                 |       |        |       |         |
+|--------------------------------------------------------------------------------|-----------------|-------|--------|-------|---------|
+| Deployment Cost                                                                | Deployment Size |       |        |       |         |
+| 284331                                                                         | 1448            |       |        |       |         |
+| Function Name                                                                  | min             | avg   | median | max   | # calls |
+| updateFile                                                                     | 1307            | 21252 | 21635  | 21635 | 102     |

@@ -1,0 +1,9 @@
+Running 7 tests for test/classic-pattern/NotarizationClassicV2.t.sol:NotarizationClassicV2Test
+[32m[PASS][0m test1_AddFile_variantLengths() (gas: 13648287)
+[32m[PASS][0m test2_AddFile_variantLastCharacter() (gas: 10223097)
+[32m[PASS][0m test3_AddFile_sameFileName() (gas: 3644350)
+[32m[PASS][0m test4_getFileHash() (gas: 73432)
+[32m[PASS][0m test5_getFileName() (gas: 72898)
+[32m[PASS][0m test6_compareHashes() (gas: 1788086)
+[32m[PASS][0m test7_updateFile() (gas: 2910071)
+Test result: [32mok[0m. [32m7[0m passed; [31m0[0m failed; [33m0[0m skipped; finished in 25.35ms

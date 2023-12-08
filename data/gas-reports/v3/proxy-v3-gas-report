@@ -1,0 +1,32 @@
+| lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy contract |                 |        |        |        |         |
+|-------------------------------------------------------------------------------------------|-----------------|--------|--------|--------|---------|
+| Deployment Cost                                                                           | Deployment Size |        |        |        |         |
+| 70433                                                                                     | 1164            |        |        |        |         |
+| Function Name                                                                             | min             | avg    | median | max    | # calls |
+| addFile                                                                                   | 114715          | 154799 | 159316 | 204144 | 704     |
+| deleteFile                                                                                | 4096            | 4661   | 4681   | 5508   | 100     |
+| getFileCreatedAt                                                                          | 1471            | 1563   | 1557   | 1729   | 100     |
+| getFileDetails                                                                            | 2122            | 2208   | 2206   | 2372   | 201     |
+| getFileHash                                                                               | 1570            | 1631   | 1570   | 1828   | 300     |
+| getFileLastModifiedAt                                                                     | 1537            | 1629   | 1623   | 1795   | 100     |
+| getFileOwner                                                                              | 1323            | 1415   | 1409   | 1581   | 100     |
+| getFilename                                                                               | 1375            | 1823   | 1851   | 2353   | 201     |
+| initialize                                                                                | 48212           | 48212  | 48212  | 48212  | 12      |
+| updateFile                                                                                | 2063            | 21876  | 22212  | 22212  | 102     |
+
+
+| src/proxy-pattern/NotarizationProxyV3.sol:NotarizationProxyV3 contract |                 |        |        |        |         |
+|------------------------------------------------------------------------|-----------------|--------|--------|--------|---------|
+| Deployment Cost                                                        | Deployment Size |        |        |        |         |
+| 1669220                                                                | 8392            |        |        |        |         |
+| Function Name                                                          | min             | avg    | median | max    | # calls |
+| addFile                                                                | 114384          | 154392 | 158979 | 203795 | 704     |
+| deleteFile                                                             | 3836            | 4395   | 4416   | 5234   | 100     |
+| getFileCreatedAt                                                       | 1143            | 1229   | 1223   | 1383   | 100     |
+| getFileDetails                                                         | 1785            | 1865   | 1863   | 2017   | 201     |
+| getFileHash                                                            | 1242            | 1299   | 1242   | 1482   | 300     |
+| getFileLastModifiedAt                                                  | 1209            | 1295   | 1289   | 1449   | 100     |
+| getFileOwner                                                           | 995             | 1081   | 1075   | 1235   | 100     |
+| getFilename                                                            | 1050            | 1492   | 1520   | 2010   | 201     |
+| initialize                                                             | 47899           | 47899  | 47899  | 47899  | 12      |
+| updateFile                                                             | 1719            | 21566  | 21947  | 21947  | 102     |

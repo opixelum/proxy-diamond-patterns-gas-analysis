@@ -1,0 +1,34 @@
+| lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy contract |                 |       |        |        |         |
+|-------------------------------------------------------------------------------------------|-----------------|-------|--------|--------|---------|
+| Deployment Cost                                                                           | Deployment Size |       |        |        |         |
+| 70433                                                                                     | 1164            |       |        |        |         |
+| Function Name                                                                             | min             | avg   | median | max    | # calls |
+| addFile                                                                                   | 4047            | 61224 | 92101  | 136787 | 303     |
+| compareHashes                                                                             | 643             | 665   | 643    | 5143   | 200     |
+| getFileHash                                                                               | 1493            | 1537  | 1493   | 1751   | 401     |
+| getFileName                                                                               | 1285            | 1566  | 1510   | 2263   | 401     |
+| initialize                                                                                | 48201           | 48201 | 48201  | 48201  | 8       |
+| updateFile                                                                                | 21848           | 21848 | 21848  | 21848  | 100     |
+| upgradeTo                                                                                 | 14786           | 14786 | 14786  | 14786  | 1       |
+
+
+| src/proxy-pattern/NotarizationProxyV2.sol:NotarizationProxyV2 contract |                 |       |        |        |         |
+|------------------------------------------------------------------------|-----------------|-------|--------|--------|---------|
+| Deployment Cost                                                        | Deployment Size |       |        |        |         |
+| 1385514                                                                | 6975            |       |        |        |         |
+| Function Name                                                          | min             | avg   | median | max    | # calls |
+| addFile                                                                | 3716            | 60800 | 91764  | 136438 | 303     |
+| compareHashes                                                          | 321             | 321   | 321    | 321    | 200     |
+| getFileHash                                                            | 1165            | 1206  | 1165   | 1405   | 401     |
+| getFileName                                                            | 960             | 1238  | 1185   | 1920   | 401     |
+| initialize                                                             | 47888           | 47888 | 47888  | 47888  | 8       |
+| updateFile                                                             | 21583           | 21583 | 21583  | 21583  | 100     |
+| upgradeTo                                                              | 9970            | 9970  | 9970   | 9970   | 1       |
+
+
+| src/proxy-pattern/NotarizationProxyV3.sol:NotarizationProxyV3 contract |                 |     |        |     |         |
+|------------------------------------------------------------------------|-----------------|-----|--------|-----|---------|
+| Deployment Cost                                                        | Deployment Size |     |        |     |         |
+| 1669220                                                                | 8392            |     |        |     |         |
+| Function Name                                                          | min             | avg | median | max | # calls |
+| proxiableUUID                                                          | 325             | 325 | 325    | 325 | 1       |

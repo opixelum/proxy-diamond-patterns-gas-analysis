@@ -1,0 +1,10 @@
+Running 8 tests for test/proxy-pattern/NotarizationProxyV2.t.sol:NotarizationProxyV2Test
+[32m[PASS][0m test1_AddFile_variantLengths() (gas: 13780518)
+[32m[PASS][0m test2_AddFile_variantLastCharacter() (gas: 10355341)
+[32m[PASS][0m test3_AddFile_sameFileName() (gas: 3775572)
+[32m[PASS][0m test4_getFileHash() (gas: 78900)
+[32m[PASS][0m test5_getFileName() (gas: 78115)
+[32m[PASS][0m test6_compareHashes() (gas: 1874330)
+[32m[PASS][0m test7_updateFile() (gas: 3025688)
+[32m[PASS][0m test8_upgradeToV3() (gas: 1749705)
+Test result: [32mok[0m. [32m8[0m passed; [31m0[0m failed; [33m0[0m skipped; finished in 47.70ms

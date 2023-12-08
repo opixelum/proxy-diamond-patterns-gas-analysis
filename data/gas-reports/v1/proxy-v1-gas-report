@@ -1,0 +1,32 @@
+| lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy contract |                 |       |        |        |         |
+|-------------------------------------------------------------------------------------------|-----------------|-------|--------|--------|---------|
+| Deployment Cost                                                                           | Deployment Size |       |        |        |         |
+| 70433                                                                                     | 1164            |       |        |        |         |
+| Function Name                                                                             | min             | avg   | median | max    | # calls |
+| addFile                                                                                   | 3585            | 38378 | 3965   | 136735 | 500     |
+| compareHashes                                                                             | 643             | 665   | 643    | 5143   | 200     |
+| getFileHash                                                                               | 1471            | 1515  | 1471   | 1729   | 400     |
+| getFileName                                                                               | 1285            | 1566  | 1510   | 2263   | 400     |
+| initialize                                                                                | 48201           | 48201 | 48201  | 48201  | 7       |
+| upgradeTo                                                                                 | 14753           | 14753 | 14753  | 14753  | 1       |
+
+
+| src/proxy-pattern/NotarizationProxyV1.sol:NotarizationProxyV1 contract |                 |       |        |        |         |
+|------------------------------------------------------------------------|-----------------|-------|--------|--------|---------|
+| Deployment Cost                                                        | Deployment Size |       |        |        |         |
+| 1217937                                                                | 6138            |       |        |        |         |
+| Function Name                                                          | min             | avg   | median | max    | # calls |
+| addFile                                                                | 3254            | 38000 | 3634   | 136386 | 500     |
+| compareHashes                                                          | 321             | 321   | 321    | 321    | 200     |
+| getFileHash                                                            | 1143            | 1184  | 1143   | 1383   | 400     |
+| getFileName                                                            | 960             | 1238  | 1185   | 1920   | 400     |
+| initialize                                                             | 47888           | 47888 | 47888  | 47888  | 7       |
+| upgradeTo                                                              | 9937            | 9937  | 9937   | 9937   | 1       |
+
+
+| src/proxy-pattern/NotarizationProxyV2.sol:NotarizationProxyV2 contract |                 |     |        |     |         |
+|------------------------------------------------------------------------|-----------------|-----|--------|-----|---------|
+| Deployment Cost                                                        | Deployment Size |     |        |     |         |
+| 1385514                                                                | 6975            |     |        |     |         |
+| Function Name                                                          | min             | avg | median | max | # calls |
+| proxiableUUID                                                          | 292             | 292 | 292    | 292 | 1       |
