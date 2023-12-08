@@ -1,12 +1,5 @@
 # Proxy and Diamond Patterns Gas Analysis
 
-The purpose of this repository is to compare the different smart contract
-patterns. The patterns are:
-
-- Classic;
-- Proxy;
-- Diamond.
-
 We will compare the gas cost of each operation (deploy, upgrade, call) for each,
 and also the complexity of the code. Also, we use the
 [Yul-based optimizer](https://docs.soliditylang.org/en/v0.8.21/internals/optimizer.html)
