@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [],
+    "name": "Factory__FailedDeployment",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "getMetamorphicImplementation",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "implementation",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
